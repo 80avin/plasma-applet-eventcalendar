@@ -4,7 +4,7 @@ import QtQuick.Layouts 1.1
 import org.kde.kirigami 2.0 as Kirigami
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 2.0 as PlasmaComponents
-import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.components 2.0 as PlasmaComponents3
 
 import "LocaleFuncs.js" as LocaleFuncs
 
@@ -41,7 +41,7 @@ Item {
 			PlasmaComponents3.ToolButton {
 				id: timerLabel
 				text: "0:00"
-				icon.name: {
+				iconSource: {
 					if (timerModel.secondsLeft === 0) {
 						return 'chronometer'
 					} else if (timerModel.running) {
@@ -50,8 +50,8 @@ Item {
 						return 'chronometer-start'
 					}
 				}
-				icon.width: units.iconSizes.large
-				icon.height: units.iconSizes.large
+				width: units.iconSizes.large
+				height: units.iconSizes.large
 				font.pointSize: -1
 				font.pixelSize: appletConfig.timerClockFontHeight
 				Layout.alignment: Qt.AlignVCenter
@@ -122,7 +122,7 @@ Item {
 				PlasmaComponents3.ToolButton {
 					id: timerRepeatsButton
 					readonly property bool isChecked: plasmoid.configuration.timerRepeats // New property to avoid checked=pressed theming.
-					icon.name: isChecked ? 'media-playlist-repeat' : 'gtk-stop'
+					iconSource: isChecked ? 'media-playlist-repeat' : 'gtk-stop'
 					text: topRow.contentsFit ? i18n("Repeat") : ""
 					onClicked: {
 						plasmoid.configuration.timerRepeats = !isChecked
@@ -139,7 +139,7 @@ Item {
 				PlasmaComponents3.ToolButton {
 					id: timerSfxEnabledButton
 					readonly property bool isChecked: plasmoid.configuration.timerSfxEnabled // New property to avoid checked=pressed theming.
-					icon.name: isChecked ? 'audio-volume-high' : 'dialog-cancel'
+					iconSource: isChecked ? 'audio-volume-high' : 'dialog-cancel'
 					text: topRow.contentsFit ? i18n("Sound") : ""
 					onClicked: {
 						plasmoid.configuration.timerSfxEnabled = !isChecked

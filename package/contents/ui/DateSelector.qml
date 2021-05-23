@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtQuick.Window 2.2
 
 import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.components 2.0 as PlasmaComponents3
 
 import QtQuick.Templates 2.1 as T
 import QtQuick.Controls 2.1 as Controls
@@ -43,15 +43,15 @@ PlasmaComponents3.TextField {
 		})
 	}
 
-	onPressed: popup.open()
+	Keys.onPressed: popup.open()
 
 	onDateSelected: {
 		setDateTime(newDateTime)
 	}
 
-	onTextEdited: {
+	onTextChanged: {
 		var dt = Date.fromLocaleDateString(Qt.locale(), text, dateSelector.dateFormat)
-		// console.log('onTextEdited', text, dt)
+		// console.log('onTextChanged', text, dt)
 		if (!isNaN(dt)) {
 			setDateTime(dt)
 		}

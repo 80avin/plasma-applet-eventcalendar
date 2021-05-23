@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtQuick.Window 2.2
 
 import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.components 2.0 as PlasmaComponents3
 
 import QtQuick.Templates 2.1 as T
 import QtQuick.Controls 2.1 as Controls
@@ -59,7 +59,7 @@ PlasmaComponents3.TextField {
 		return l
 	}
 
-	onPressed: {
+	Keys.onPressed: {
 		popup.open()
 		highlightDateTime(dateTime)
 	}
@@ -71,9 +71,9 @@ PlasmaComponents3.TextField {
 		}
 	}
 
-	onTextEdited: {
+	onTextChanged: {
 		var dt = Date.fromLocaleTimeString(Qt.locale(), text, timeSelector.timeFormat)
-		// console.log('onTextEdited', text, dt)
+		// console.log('onTextChanged', text, dt)
 		if (!isNaN(dt)) {
 			setDateTime(dt)
 			highlightDateTime(dt)
@@ -96,7 +96,7 @@ PlasmaComponents3.TextField {
 	onEditingFinished: updateText()
 	Component.onCompleted: updateText()
 
-	property Component delegate: PlasmaComponents3.ItemDelegate {
+	property Component delegate: Controls.ItemDelegate {
 		width: control.popup.width
 		text: control.textRole ? (Array.isArray(control.model) ? modelData[control.textRole] : model[control.textRole]) : modelData
 		property bool separatorVisible: false

@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtQuick.Controls 1.1
 import QtQuick.Layouts 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.components 2.0 as PlasmaComponents3
 
 import "Shared.js" as Shared
 
@@ -253,12 +253,12 @@ Loader {
 						Layout.fillWidth: true
 					}
 					PlasmaComponents3.Button {
-						icon.name: "document-save"
+						iconSource: "document-save"
 						text: i18n("&Save")
 						onClicked: editEventItem.submit()
 					}
 					PlasmaComponents3.Button {
-						icon.name: "dialog-cancel"
+						iconSource: "dialog-cancel"
 						text: i18n("&Cancel")
 						onClicked: editEventItem.cancel()
 					}

@@ -1,7 +1,7 @@
 import QtQuick 2.0
 import QtQuick.Controls 1.1
 import QtQuick.Layouts 1.1
-import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.components 2.0 as PlasmaComponents3
 
 ColumnLayout {
 	id: timerInputView
@@ -72,12 +72,12 @@ ColumnLayout {
 			Layout.fillWidth: true
 		}
 		PlasmaComponents3.Button {
-			icon.name: 'chronometer-start'
+			iconSource: 'chronometer-start'
 			text: i18n("&Start")
 			onClicked: timerInputView.start()
 		}
 		PlasmaComponents3.Button {
-			icon.name: 'dialog-cancel'
+			iconSource: 'dialog-cancel'
 			text: i18n("&Cancel")
 			onClicked: timerInputView.cancel()
 		}

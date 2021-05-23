@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtQuick.Controls 1.1
 import QtQuick.Layouts 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.components 2.0 as PlasmaComponents3
 
 import "lib"
 import "Shared.js" as Shared
@@ -396,7 +396,7 @@ MouseArea {
 
 			PlasmaComponents3.Button {
 				id: refreshButton
-				icon.name: 'view-refresh'
+				iconSource: 'view-refresh'
 				anchors.bottom: parent.bottom
 				anchors.right: parent.right
 				anchors.rightMargin: agendaView.scrollbarWidth

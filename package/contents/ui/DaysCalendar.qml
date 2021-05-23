@@ -24,7 +24,7 @@ import QtQuick.Controls 2.0 as QQC2
 import org.kde.kirigami 2.0 as Kirigami
 import org.kde.plasma.calendar 2.0
 import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.components 3.0 as PlasmaComponents3
+import org.kde.plasma.components 2.0 as PlasmaComponents3
 import org.kde.plasma.extras 2.0 as PlasmaExtras
 
 import "./badges"
@@ -152,7 +152,7 @@ Item {
 
 		PlasmaComponents3.ToolButton {
 			id: previousButton
-			icon.name: "go-previous"
+			iconSource: "go-previous"
 			onClicked: daysCalendar.previous()
 			property string tooltip: ''
 			QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
@@ -164,7 +164,7 @@ Item {
 		}
 
 		PlasmaComponents3.ToolButton {
-			icon.name: "go-jump-today"
+			iconSource: "go-jump-today"
 			onClicked: root.resetToToday()
 			property string tooltip: i18ndc("libplasma5", "Reset calendar to today", "Today")
 			QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
@@ -178,7 +178,7 @@ Item {
 
 		PlasmaComponents3.ToolButton {
 			id: nextButton
-			icon.name: "go-next"
+			iconSource: "go-next"
 			onClicked: daysCalendar.next()
 			property string tooltip: ''
 			QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
