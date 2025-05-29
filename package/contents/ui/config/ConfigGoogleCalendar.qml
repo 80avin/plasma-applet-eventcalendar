@@ -188,6 +188,7 @@ ConfigPage {
 
 	RowLayout {
 		Layout.fillWidth: true
+		visible: googleLoginManager.isLoggedIn
 
 		HeaderText {
 			text: i18n("Calendars")
@@ -202,6 +203,7 @@ ConfigPage {
 	ColumnLayout {
 		spacing: Kirigami.Units.smallSpacing * 2
 		Layout.fillWidth: true
+		visible: googleLoginManager.isLoggedIn
 
 		ListModel {
 			id: calendarsModel
@@ -259,6 +261,7 @@ ConfigPage {
 
 	RowLayout {
 		Layout.fillWidth: true
+		visible: googleLoginManager.isLoggedIn
 
 		HeaderText {
 			text: i18n("Tasks")
@@ -283,6 +286,7 @@ ConfigPage {
 	ColumnLayout {
 		spacing: Kirigami.Units.smallSpacing * 2
 		Layout.fillWidth: true
+		visible: googleLoginManager.isLoggedIn
 
 		ListModel {
 			id: tasklistsModel
@@ -335,6 +339,31 @@ ConfigPage {
 					}
 				}
 			}
+		}
+	}
+
+	HeaderText {
+		text: i18n("Options")
+		visible: googleLoginManager.isLoggedIn
+	}
+
+	ColumnLayout {
+		Layout.fillWidth: true
+		visible: googleLoginManager.isLoggedIn
+
+		ConfigRadioButtonGroup {
+			id: googleEventClickAction
+			label: i18n("Event Click:")
+			configKey: 'googleEventClickAction'
+			model: [
+				{ value: 'WebEventView', text: i18n("Open Web Event View") },
+				{ value: 'WebMonthView', text: i18n("Open Web Month View") },
+			]
+		}
+
+		ConfigCheckBox {
+			configKey: 'googleHideGoalsDesc'
+			text: i18n("Hide \"This event was added from Goals in Google Calendar\" description")
 		}
 	}
 

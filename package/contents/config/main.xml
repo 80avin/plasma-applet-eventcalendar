@@ -180,7 +180,7 @@
 			<default></default>
 		</entry>
 		<entry name="monthShowBorder" type="bool">
-			<default>true</default>
+			<default>false</default>
 		</entry>
 		<entry name="monthShowWeekNumbers" type="bool">
 			<default>false</default>
@@ -209,7 +209,7 @@
 		</entry>
 		<!-- Deprecated in: v71 -->
 		<entry name="month_show_border" type="bool">
-			<default>true</default>
+			<default>false</default>
 		</entry>
 		<entry name="month_show_weeknumbers" type="bool">
 			<default>false</default>
@@ -381,6 +381,14 @@
 		</entry>
 		<entry name="tasklistIdList" type="string">
 			<default></default>
+		</entry>
+		<entry name="googleEventClickAction" type="string">
+			<!-- enum: WebEventView, WebMonthView -->
+			<default>WebEventView</default>
+		</entry>
+		<entry name="googleHideGoalsDesc" type="bool">
+			<label>Remove "This event was added from Goals in Google Calendar" from description</label>
+			<default>true</default>
 		</entry>
 
 		<!-- Deprecated in: v71 -->

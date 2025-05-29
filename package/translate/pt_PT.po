@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eventcalendar\n"
 "Report-Msgid-Bugs-To: https://github.com/Zren/plasma-applet-eventcalendar\n"
-"POT-Creation-Date: 2021-03-13 15:06-0500\n"
+"POT-Creation-Date: 2023-08-18 10:16-0400\n"
 "PO-Revision-Date: 2021-03-16 12:00-0500\n"
 "Last-Translator: DMMLeal <dmleal.doc@gmail.com>\n"
 "Language: pt_PT\n"
@@ -553,6 +553,26 @@ msgstr "Atualizar"
 msgid "Tasks"
 msgstr "Obrigado"
 
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Options"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Event Click:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Open Web Event View"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Open Web Month View"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Hide \"This event was added from Goals in Google Calendar\" description"
+msgstr ""
+
 #: ../contents/ui/config/ConfigICal.qml
 msgid "Add Calendar"
 msgstr "Adicionar calendário"
@@ -813,12 +833,12 @@ msgid "Logged out of Google. Please login again."
 msgstr "Desconectado do Google. Por favor faça login novamente."
 
 #: ../contents/ui/main.qml
-msgid "Set Language..."
-msgstr "Definir idioma..."
+msgid "Set Language…"
+msgstr "Definir idioma…"
 
 #: ../contents/ui/main.qml
-msgid "Set Locale..."
-msgstr "Definir local..."
+msgid "Set Locale…"
+msgstr "Definir local…"
 
 #: ../contents/ui/MeteogramView.qml
 #, c-format

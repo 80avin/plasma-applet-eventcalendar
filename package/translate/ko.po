@@ -1,104 +1,103 @@
-# Translation of eventcalendar in nl
-# Copyright (C) 2018
+# Translation of eventcalendar in ko
+# Copyright (C) 2022
 # This file is distributed under the same license as the eventcalendar package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Heimen Stoffels <vistausss@outlook.com>, 2019, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: eventcalendar\n"
 "Report-Msgid-Bugs-To: https://github.com/Zren/plasma-applet-eventcalendar\n"
 "POT-Creation-Date: 2023-08-18 10:16-0400\n"
-"PO-Revision-Date: 2022-04-05 13:49+0200\n"
-"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
-"Language-Team: Dutch <>\n"
-"Language: nl\n"
+"PO-Revision-Date: 2022-10-25 17:15+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.03.80\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: ../metadata.desktop ../contents/ui/AgendaView.qml
 #: ../contents/ui/UpcomingEvents.qml
 msgid "Event Calendar"
-msgstr "Afsprakenboek"
+msgstr "이벤트 달력"
 
 #: ../metadata.desktop
 msgid ""
 "Plasmoid for a calendar+agenda with weather that syncs to Google Calendar."
 msgstr ""
-"Een plasmoid met kalender, agenda en weer die synchroniseert met Google "
-"Agenda."
+"Google 캘린더랑 동기화할 수 있는 달력, 일정 및 날씨 Plasmoid 위젯입니다."
 
 #: ../contents/config/config.qml
 msgid "General"
-msgstr "Algemeen"
+msgstr "일반"
 
 #: ../contents/config/config.qml
 msgid "Layout"
-msgstr "Indeling"
+msgstr "레이아웃"
 
 #: ../contents/config/config.qml
 msgid "Timezones"
-msgstr "Tijdzones"
+msgstr "시간대"
 
 #: ../contents/config/config.qml ../contents/ui/UpcomingEvents.qml
 msgid "Calendar"
-msgstr "Kalender"
+msgstr "달력"
 
 #: ../contents/config/config.qml
 msgid "Agenda"
-msgstr "Agenda"
+msgstr "일정"
 
 #: ../contents/config/config.qml
 msgid "Events"
-msgstr "Afspraken"
+msgstr "행사"
 
 #: ../contents/config/config.qml ../contents/ui/config/ConfigEvents.qml
 msgid "ICalendar (.ics)"
-msgstr "ICalendar (.ics)"
+msgstr "iCalendar (.ics)"
 
 #: ../contents/config/config.qml ../contents/ui/config/ConfigEvents.qml
 msgid "Google Calendar"
-msgstr "Google Agenda"
+msgstr "Google 캘린더"
 
 #: ../contents/config/config.qml
 msgid "Weather"
-msgstr "Weer"
+msgstr "날씨"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
-msgstr "Geavanceerd"
+msgstr "고급"
 
 #: ../contents/ui/AgendaEventItem.qml ../contents/ui/EditEventForm.qml
 #: ../contents/ui/LocaleFuncs.js
 msgid "All Day"
-msgstr "Hele dag"
+msgstr "하루 종일"
 
 #: ../contents/ui/AgendaEventItem.qml
 msgid "Hangout"
-msgstr "Hangout"
+msgstr "행아웃"
 
 #: ../contents/ui/AgendaEventItem.qml ../contents/ui/AgendaTaskItem.qml
 msgid "Edit"
-msgstr "Aanpassen"
+msgstr "편집"
 
 #: ../contents/ui/AgendaEventItem.qml ../contents/ui/AgendaTaskItem.qml
 msgid "Delete Event"
-msgstr "Afspraak verwijderen"
+msgstr "행사 삭제"
 
 #: ../contents/ui/AgendaEventItem.qml ../contents/ui/AgendaTaskItem.qml
 msgid "Confirm Deletion"
-msgstr "Verwijderen bevestigen"
+msgstr "삭제 확인"
 
 #: ../contents/ui/AgendaEventItem.qml ../contents/ui/AgendaTaskItem.qml
 msgid "Edit in browser"
-msgstr "Aanpassen in webbrowser"
+msgstr "브라우저에서 편집"
 
 #: ../contents/ui/AgendaListItem.qml
 msgctxt "agenda date format line 1"
 msgid "MMM d"
-msgstr "d MMM"
+msgstr "MMM d일"
 
 #: ../contents/ui/AgendaListItem.qml
 msgctxt "agenda date format line 2"
@@ -108,344 +107,343 @@ msgstr "ddd"
 #: ../contents/ui/AgendaTaskItem.qml ../contents/ui/LocaleFuncs.js
 msgctxt "short month+date format"
 msgid "MMM d"
-msgstr "d MMM"
+msgstr "MMM d일"
 
 #: ../contents/ui/calendars/CalendarManager.qml
 msgctxt "event with no summary"
 msgid "(No title)"
-msgstr "(naamloos)"
+msgstr "(제목 없음)"
 
 #: ../contents/ui/CalendarSelector.qml
 msgid "[No Calendars]"
-msgstr "[Geen agenda's]"
+msgstr "[달력 없음]"
 
 #: ../contents/ui/calendars/GoogleCalendarManager.qml ../contents/ui/Logic.qml
 msgid "HTTP Error %1: %2"
-msgstr "Http-fout %1: %2"
+msgstr "HTTP 오류 %1: %2"
 
 #: ../contents/ui/calendars/GoogleCalendarManager.qml ../contents/ui/Logic.qml
 msgid "Could not connect"
-msgstr "Er kan geen verbinding worden gemaakt"
+msgstr "연결 실패"
 
 #: ../contents/ui/calendars/GoogleCalendarManager.qml ../contents/ui/Logic.qml
 msgid "Will try again soon."
-msgstr "Het wordt spoedig opnieuw geprobeerd."
+msgstr "나중에 다시 시도하십시오."
 
 #: ../contents/ui/calendars/GoogleCalendarManager.qml
 #: ../contents/ui/config/ConfigGoogleCalendar.qml ../contents/ui/Logic.qml
 msgid ""
 "Widget has been updated. Please logout and login to Google Calendar again."
-msgstr "De widget is bijgewerkt. Log uit en weer in op Google Agenda."
+msgstr ""
+"위젯이 업데이트되었습니다. Google 캘린더에 로그아웃 후 다시 로그인하십시오."
 
 #: ../contents/ui/calendars/GoogleCalendarManager.qml
 msgid "Too many web requests. Will try again soon."
-msgstr "Er waren teveel verzoeken - het wordt spoedig opnieuw geprobeerd."
+msgstr "웹 요청이 너무 많습니다. 나중에 다시 시도하십시오."
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Show agenda"
-msgstr "Agenda tonen"
+msgstr "일정 표시"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Font Size:"
-msgstr "Tekstgrootte:"
+msgstr "글꼴 크기:"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 #: ../contents/ui/config/ConfigGeneral.qml
 #: ../contents/ui/config/ConfigLayout.qml
 msgid "px"
-msgstr "px"
+msgstr "픽셀"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid " (0px = <b>System Settings > Fonts > General</b>)"
-msgstr " (0px = <b>Systeeminstellingen > Lettertypen > Algemeen</b>)"
+msgstr " (0픽셀 = <b>시스템 설정 > 글꼴 > 일반</b>)"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Weather Icon"
-msgstr "Weerpictogram"
+msgstr "날씨 아이콘"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Icon Outline"
-msgstr "Pictogramcontour"
+msgstr "아이콘 윤곽선"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Weather Text"
-msgstr "Weertekst"
+msgstr "날씨 텍스트"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Position:"
-msgstr "Locatie:"
+msgstr "위치:"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Left"
-msgstr "Links"
+msgstr "왼쪽"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Right"
-msgstr "Rechts"
+msgstr "오른쪽"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Click Weather:"
-msgstr "Actie na aanklikken van weer:"
+msgstr "날씨 클릭:"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Open City Forecast In Browser"
-msgstr "Weersvoorspelling openen in webbrowser"
+msgstr "브라우저에서 도시 날씨 열기"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Click Date:"
-msgstr "Actie na aanklikken van datum:"
+msgstr "날짜 클릭:"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Open New Event In Browser"
-msgstr "Nieuwe afspraak openen in webbrowser"
+msgstr "브라우저에서 새 이벤트 열기"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Open New Event Form"
-msgstr "Nieuwe afspraak openen in pop-up"
+msgstr "새 이벤트 창 열기"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Event description"
-msgstr "Omschrijving"
+msgstr "이벤트 설명"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Hide 'All Day' text"
-msgstr "Label ‘Hele dag’ verbergen"
+msgstr "'하루 종일' 텍스트 숨기기"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Google Hangouts link"
-msgstr "Google Hangouts-link"
+msgstr "Google 행아웃 링크"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Click Event:"
-msgstr "Actie na aanklikken van afspraak:"
+msgstr "이벤트 클릭:"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Open Event In Browser"
-msgstr "Afspraak openen in webbrowser"
+msgstr "브라우저에서 이벤트 열기"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Show multi-day events:"
-msgstr "Meerdaagse afspraken tonen:"
+msgstr "정기적인 이벤트 표시:"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "On all days"
-msgstr "Elke dag"
+msgstr "하루 종일"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Only on the first and current day"
-msgstr "Alleen op de eerste en huidige dag"
+msgstr "현재 날짜의 첫 일정에만"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Remember selected calendar in New Event Form"
-msgstr "Gekozen agenda onthouden in pop-up ‘Nieuwe afspraak’"
+msgstr "새 이벤트 창에서 선택된 달력 기억"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Current Month"
-msgstr "Deze maand"
+msgstr "이번 달"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Always show next 14 days"
-msgstr "Altijd de volgende 14 dagen tonen"
+msgstr "14일 동안 항상 표시"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Hide completed events"
-msgstr "Afgeronde afspraken verbergen"
+msgstr "완료된 이벤트 숨기기"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Show all events of the current day (including completed events)"
-msgstr "Alle afspraken van de huidige dag tonen (inclusief afgeronde)"
+msgstr "모든 이벤트 표시 (완료된 이벤트 포함)"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Colors"
-msgstr "Kleuren"
+msgstr "색"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "In Progress"
-msgstr "Lopend"
+msgstr "진행 중"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Day Spacing:"
-msgstr "Ruimte tussen dagen:"
+msgstr "날짜 간격:"
 
 #: ../contents/ui/config/ConfigAgenda.qml
 msgid "Event Spacing:"
-msgstr "Ruimte tussen afspraken:"
+msgstr "행사 간격:"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Show calendar"
-msgstr "Kalender tonen"
+msgstr "달력 표시"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Scroll to event in Agenda"
-msgstr "Afspraak tonen in agenda"
+msgstr "일정에서 이벤트 스크롤"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Double-click on Date:"
-msgstr "Actie na dubbelklikken op datum:"
+msgstr "날짜 더블클릭:"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "New Google Calendar Event (Web Browser)"
-msgstr "Nieuwe Google Agenda-afspraak (webbrowser)"
+msgstr "새 Google 캘린더 이벤트 (웹 브라우저)"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Do Nothing"
-msgstr "Niets doen"
+msgstr "아무것도 안 함"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Style"
-msgstr "Stijl"
+msgstr "스타일"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Current Month Title:"
-msgstr "Naam van huidige maand:"
+msgstr "이번 달 제목:"
 
 #: ../contents/ui/config/ConfigCalendar.qml ../contents/ui/MonthView.qml
 msgctxt "calendar title format for current month"
 msgid "MMMM d, yyyy"
-msgstr "d MMMM yyyy"
+msgstr "yyyy년 MMMM d일"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Show Borders"
-msgstr "Kaders tonen"
+msgstr "윤곽선 표시"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Show Week Numbers"
-msgstr "Weeknummers tonen"
+msgstr "주 번호 표시"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Highlight Current Day / Week"
-msgstr "Huidige dag/week markeren"
+msgstr "오늘 날짜 강조"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "First day of week:"
-msgstr "Eerste dag van de week:"
+msgstr "일주일의 시작 요일:"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Default"
-msgstr "Standaard"
+msgstr "기본"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Event Badge:"
-msgstr "Afspraakembleem:"
+msgstr "이벤트 배지:"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Theme"
-msgstr "Thema"
+msgstr "테마"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Dots (3 Maximum)"
-msgstr "Puntjes (maximaal 3)"
+msgstr "점 (최대 3개)"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Bottom Bar (Event Color)"
-msgstr "Onderste balk (afspraakkleur)"
+msgstr "아래 바 (이벤트 색)"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Bottom Bar (Highlight)"
-msgstr "Onderste balk (markering)"
+msgstr "아래 바 (강조)"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Count"
-msgstr "Teller"
+msgstr "숫자"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Radius:"
-msgstr "Straal:"
+msgstr "반지름:"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Selected:"
-msgstr "Geselecteerd:"
+msgstr "선택됨:"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Solid Color (Highlight)"
-msgstr "Vlakke kleur (markering)"
+msgstr "단색 (강조)"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Today:"
-msgstr "Vandaag:"
+msgstr "오늘:"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Solid Color (Inverted)"
-msgstr "Vlakke kleur (omgekeerd)"
+msgstr "단색 (반전됨)"
 
 #: ../contents/ui/config/ConfigCalendar.qml
 msgid "Big Number"
-msgstr "Groot getal"
+msgstr "큰 숫자"
 
 #: ../contents/ui/config/ConfigEvents.qml
 msgid "Event Calendar Plugins"
-msgstr "Afsprakenboek-uitbreidingen"
+msgstr "이벤트 달력 플러그인"
 
 #: ../contents/ui/config/ConfigEvents.qml
 msgid "Plasma Calendar Plugins"
-msgstr "Plasma-kalenderuitbreidingen"
+msgstr "Plasma 달력 플러그인"
 
 #: ../contents/ui/config/ConfigEvents.qml
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Misc"
-msgstr "Overig"
+msgstr "그 외"
 
 #: ../contents/ui/config/ConfigEvents.qml
 msgid "Refresh events every: "
-msgstr "Ververs afspraken elke: "
+msgstr "이벤트 갱신 주기: "
 
 #: ../contents/ui/config/ConfigEvents.qml
 #: ../contents/ui/config/ConfigWeather.qml
 msgctxt "Polling interval in minutes"
 msgid "min"
-msgstr "min."
+msgstr "분"
 
 #: ../contents/ui/config/ConfigEvents.qml
 msgid "Notifications"
-msgstr "Meldingen"
+msgstr "알림"
 
 #: ../contents/ui/config/ConfigEvents.qml
 msgid "Event Reminder"
-msgstr "Afspraakherinnering"
+msgstr "이벤트 리마인더"
 
 #: ../contents/ui/config/ConfigEvents.qml
 msgid "Event Starting"
-msgstr "Bij aanvang"
+msgstr "이벤트 시작"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Widgets"
-msgstr "Widgets"
+msgstr "위젯"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid ""
 "Show/Hide widgets above the calendar. Toggle Agenda/Calendar on their "
 "respective tabs."
-msgstr ""
-"Toon/Verberg de widgets boven de kalender. Schakel tussen agenda en kalender "
-"middels de tabbladen."
+msgstr "달력 밑에 위젯을 표시하거나 숨깁니다."
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Meteogram"
-msgstr "Weergrafiek"
+msgstr "천문 현상"
 
 #: ../contents/ui/config/ConfigGeneral.qml ../contents/ui/TimerModel.qml
 msgid "Timer"
-msgstr "Tijdklok"
+msgstr "타이머"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 #: ../contents/ui/lib/ConfigNotification.qml
 msgid "SFX:"
-msgstr "Effecten:"
+msgstr "효과음:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Clock"
-msgstr "Klok"
+msgstr "시계"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Time Format"
-msgstr "Tijdnotatie"
+msgstr "시간 형식"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Time Format Documentation"
-msgstr "Informatie omtrent de tijdnotatie"
+msgstr "시간 형식 문서"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid ""
@@ -453,105 +451,102 @@ msgid ""
 "with small text. Try using the Sans Serif font if you find the text too "
 "small when adding a second line."
 msgstr ""
-"Het standaardlettertype van het Breeze-thema is Noto Sans. Dit lettertype "
-"maakt kleine tekst moeilijk leesbaar. Gebruik het schreefloze lettertype als "
-"je de tekst op de tweede regel te klein vindt."
+"Breeze의 기본 글꼴인 Noto Sans는 작은 글씨에서 읽기 힘듭니다. 줄 바꿈 시 텍스"
+"트가 너무 작다고 느껴지면 산 세리프를 사용해보십시오."
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid ""
 "You can also use %1 or %2 to style a section. Note the single quotes around "
 "the tags are used to bypass the time format."
 msgstr ""
-"Je kunt ook %1 of %2 gebruiken om de stijl van een sectie aan te passen. Let "
-"op: de enkele aanhalingstekens worden gebruikt om de tijdnotatie te omzeilen."
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Font:"
-msgstr "Lettertype:"
+msgstr "글꼴:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Fixed Clock Height: "
-msgstr "Vaste klokhoogte: "
+msgstr "시계 높이 고정: "
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid " (0px = scale to fit)"
-msgstr " (0px = automatisch inpassen)"
+msgstr " (0픽셀 = 크기에 맞춤)"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Line 1:"
-msgstr "Regel 1:"
+msgstr "1열:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Preset:"
-msgstr "Voorinstelling:"
+msgstr "프리셋:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Bold"
-msgstr "Vetgedrukt"
+msgstr "굵게"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Line 2:"
-msgstr "Regel 2:"
+msgstr "2열:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Height:"
-msgstr "Hoogte:"
+msgstr "높이:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Mouse Wheel"
-msgstr "Muiswiel"
+msgstr "마우스 휠"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Run Commands"
-msgstr "Opdrachten uitvoeren"
+msgstr "명령 실행"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Scroll Up:"
-msgstr "Omhoogscrollen:"
+msgstr "위로 스크롤:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Scroll Down:"
-msgstr "Omlaagscrollen:"
+msgstr "아래로 스크롤:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Volume (No UI) (amixer)"
-msgstr "Volume (zonder pop-up - amixer)"
+msgstr "음량 (UI 없음) (amixer)"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Volume (UI) (qdbus)"
-msgstr "Volume (met pop-up - qdbus)"
+msgstr "음량 (UI) (qdbus)"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Desktop Widget: Show background"
-msgstr "Bureaubladwidget: achtergrond tonen"
+msgstr "바탕화면 위젯: 배경 표시"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Debugging"
-msgstr "Foutopsporing"
+msgstr "디버깅"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Debugging will log sensitive information to:"
-msgstr "Hiermee leg je gevoelige informatie vast in"
+msgstr "디버그 시 상세 정보를 기록할 위치:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Enable Debugging"
-msgstr "Foutopsporing inschakelen"
+msgstr "디버깅 사용"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Login"
-msgstr "Inloggen"
+msgstr "로그인"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Currently Synched."
-msgstr "Alles is gesynchroniseerd."
+msgstr "동기화되었습니다."
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Logout"
-msgstr "Uitloggen"
+msgstr "로그아웃"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "To sync with Google Calendar"
-msgstr "Synchroniseren met Google Agenda"
+msgstr "Google 캘린더랑 동기화"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid ""
@@ -559,74 +554,73 @@ msgid ""
 "give permission to access your calendar, it will give you a code to paste "
 "below."
 msgstr ""
-"Ga naar <a href=\"%1\">%2</a> (de link opent in je browser), log in en "
-"verleen de vereiste machtiging. Kopieer daarna de door Google getoonde code "
-"en plak deze hieronder."
+"<a href=\"%1\">%2</a>으로 가십시오 (웹 브라우저에서 열림). 로그인 후 달력 접"
+"근 권한을 부여하시면 이곳으로 복사할 코드가 주어집니다."
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Copy Link"
-msgstr "Link kopiëren"
+msgstr "링크 복사"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Enter code here (Eg: %1)"
-msgstr "Voer hier de code in (bijv.: %1)"
+msgstr "코드 입력 (예: %1)"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Submit"
-msgstr "Versturen"
+msgstr "제출"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Invalid Google Authorization Code"
-msgstr "Ongeldige verificatiecode"
+msgstr "잘못된 Google 인증 코드"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 #: ../contents/ui/config/ConfigICal.qml
 msgid "Calendars"
-msgstr "Agenda's"
+msgstr "달력"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Refresh"
-msgstr "Herladen"
+msgstr "새로고침"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Tasks"
-msgstr "Taken"
+msgstr "할 일"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Options"
-msgstr "Opties"
+msgstr "옵션"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Event Click:"
-msgstr "Actie na aanklikken van afspraak:"
+msgstr "이벤트 클릭:"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Open Web Event View"
-msgstr "Afspraakweergave openen"
+msgstr "웹에서 이벤트 표시"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Open Web Month View"
-msgstr "Maandweergave openen"
+msgstr "웹에서 월 표시"
 
 #: ../contents/ui/config/ConfigGoogleCalendar.qml
 msgid "Hide \"This event was added from Goals in Google Calendar\" description"
-msgstr "‘Deze afspraak is toegevoegd door doelen in Google Agenda’ verbergen"
+msgstr "\"Google 캘린더의 목표에서 추가됨\" 설명 숨기기"
 
 #: ../contents/ui/config/ConfigICal.qml
 msgid "Add Calendar"
-msgstr "Agenda toevoegen"
+msgstr "달력 추가"
 
 #: ../contents/ui/config/ConfigICal.qml
 msgid "New Calendar"
-msgstr "Nieuwe agenda"
+msgstr "새 달력"
 
 #: ../contents/ui/config/ConfigICal.qml
 msgid "Calendar Label"
-msgstr "Agendalabel"
+msgstr "달력 이름"
 
 #: ../contents/ui/config/ConfigICal.qml
 msgid "Browse"
-msgstr "Bladeren"
+msgstr "찾기"
 
 #: ../contents/ui/config/ConfigICal.qml
 msgid "iCalendar (*.ics)"
@@ -634,200 +628,199 @@ msgstr "iCalendar (*.ics)"
 
 #: ../contents/ui/config/ConfigLayout.qml
 msgid "Calendar to the left of the Agenda (Two Columns)"
-msgstr "Kalender naast agenda tonen (twee kolommen)"
+msgstr "달력 옆에 일정 표시 (두 줄)"
 
 #: ../contents/ui/config/ConfigLayout.qml
 msgid "Agenda below the Calendar (Single Column)"
-msgstr "Agenda onder kalender tonen (één kolom)"
+msgstr "일정 밑에 달력 표시 (한 줄)"
 
 #: ../contents/ui/config/ConfigTimezones.qml
 msgid "Tooltip"
-msgstr "Hulpballon"
+msgstr "툴팁"
 
 #: ../contents/ui/config/ConfigTimezones.qml
 msgid "Cannot deselect Local time from the tooltip"
-msgstr "De lokale tijd kan niet worden gedeselecteerd in de hulpballon"
+msgstr "툴팁에서 지역 시간 선택을 해제할 수 없음"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Data"
-msgstr "Gegevens"
+msgstr "데이터"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "API App Id:"
-msgstr "API App-id:"
+msgstr "API 앱 ID:"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "City Id:"
-msgstr "Locatie-id:"
+msgstr "도시 ID:"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Eg: 5983720"
-msgstr "Bijv.: 5983720"
+msgstr "예: 5983720"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Find City"
-msgstr "Locatie zoeken"
+msgstr "도시 찾기"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Eg: on-14"
-msgstr "Bijv.: op-14"
+msgstr "예: on-14"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Settings"
-msgstr "Instellingen"
+msgstr "설정"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Update forecast every: "
-msgstr "Werk de voorspelling bij, elke: "
+msgstr "날씨 업데이트 주기: "
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Show next "
-msgstr "Toon de komende "
+msgstr "옆에 표시 "
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid " hour"
 msgid_plural " hours"
-msgstr[0] " uur"
-msgstr[1] " uur"
+msgstr[0] " 시간"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid " in the meteogram."
-msgstr " in de weergrafiek."
+msgstr " 천문 현상에서 표시됨."
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Units:"
-msgstr "Eenheden:"
+msgstr "단위:"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Celsius"
-msgstr "Celsius"
+msgstr "섭씨"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Fahrenheit"
-msgstr "Fahrenheit"
+msgstr "화씨"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Kelvin"
-msgstr "Kelvin"
+msgstr "절대온도"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Text"
-msgstr "Tekst"
+msgstr "텍스트"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Grid"
-msgstr "Rooster"
+msgstr "격자"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Rain"
-msgstr "Regen"
+msgstr "비"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Positive Temp"
-msgstr "Temp. boven vriespunt"
+msgstr "영상"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Negative Temp"
-msgstr "Temp. onder vriespunt"
+msgstr "영하"
 
 #: ../contents/ui/config/ConfigWeather.qml
 msgid "Icons"
-msgstr "Pictogrammen"
+msgstr "아이콘"
 
 #: ../contents/ui/config/OpenWeatherMapCityDialog.qml
 #: ../contents/ui/config/WeatherCanadaCityDialog.qml
 msgid "Select city"
-msgstr "Locatie kiezen"
+msgstr "도시 선택"
 
 #: ../contents/ui/config/OpenWeatherMapCityDialog.qml
 #: ../contents/ui/config/WeatherCanadaCityDialog.qml
 msgid "Fetched from <a href=\"%1\">%1</a>"
-msgstr "Opgehaald van <a href=\"%1\">%1</a>"
+msgstr ""
 
 #: ../contents/ui/config/OpenWeatherMapCityDialog.qml
 #: ../contents/ui/config/WeatherCanadaCityDialog.qml
 msgid "Search"
-msgstr "Zoeken"
+msgstr "검색"
 
 #: ../contents/ui/config/OpenWeatherMapCityDialog.qml
 #: ../contents/ui/config/WeatherCanadaCityDialog.qml
 msgid "Name"
-msgstr "Naam"
+msgstr "이름"
 
 #: ../contents/ui/config/OpenWeatherMapCityDialog.qml
 #: ../contents/ui/config/WeatherCanadaCityDialog.qml
 msgid "Id"
-msgstr "Id"
+msgstr "ID"
 
 #: ../contents/ui/config/OpenWeatherMapCityDialog.qml
 #: ../contents/ui/config/WeatherCanadaCityDialog.qml
 msgid "City Webpage"
-msgstr "Webpagina"
+msgstr "도시 웹페이지"
 
 #: ../contents/ui/config/OpenWeatherMapCityDialog.qml
 #: ../contents/ui/config/WeatherCanadaCityDialog.qml
 msgid "Open Link"
-msgstr "Link openen"
+msgstr "링크 열기"
 
 #: ../contents/ui/DateTimeSelector.qml
 msgctxt "event editor date format"
 msgid "d MMM, yyyy"
-msgstr "d MMM yyyy"
+msgstr "yyyy년 MMM d일"
 
 #: ../contents/ui/DurationSelector.qml
 msgid "to"
-msgstr "tot"
+msgstr ""
 
 #: ../contents/ui/EditEventForm.qml ../contents/ui/EditTaskForm.qml
 msgid "Event Title"
-msgstr "Titel"
+msgstr "이벤트 제목"
 
 #: ../contents/ui/EditEventForm.qml
 msgid "Add location"
-msgstr "Locatie toevoegen"
+msgstr "위치 추가"
 
 #: ../contents/ui/EditEventForm.qml ../contents/ui/EditTaskForm.qml
 msgid "Add description"
-msgstr "Omschrijving toevoegen"
+msgstr "설명 추가"
 
 #: ../contents/ui/EditEventForm.qml ../contents/ui/EditTaskForm.qml
 msgid "&Save"
-msgstr "Op&slaan"
+msgstr "저장(&S)"
 
 #: ../contents/ui/EditEventForm.qml ../contents/ui/EditTaskForm.qml
 #: ../contents/ui/TimerInputView.qml
 msgid "&Cancel"
-msgstr "&Annuleren"
+msgstr "취소(&C)"
 
 #: ../contents/ui/EditTaskForm.qml
 msgid "Add due date"
-msgstr "Einddatum toevoegen"
+msgstr "기한 추가"
 
 #: ../contents/ui/lib/AppletVersion.qml
 msgid "<b>Version:</b> %1"
-msgstr "<b>Versie:</b> %1"
+msgstr "<b>버전:</b> %1"
 
 #: ../contents/ui/lib/ConfigFontFamily.qml
 msgctxt "Use default font"
 msgid "Default"
-msgstr "Standaard"
+msgstr "기본값"
 
 #: ../contents/ui/lib/ConfigSound.qml
 msgid "Choose a sound effect"
-msgstr "Kies een geluidseffect"
+msgstr "효과음 선택"
 
 #: ../contents/ui/lib/ConfigSound.qml
 msgid "Sound files (%1)"
-msgstr "Geluidsbestanden (%1)"
+msgstr "소리 파일 (%1)"
 
 #: ../contents/ui/lib/ConfigSound.qml
 msgid "All files (%1)"
-msgstr "Alle bestanden (%1)"
+msgstr "모든 파일 (%1)"
 
 #: ../contents/ui/LocaleFuncs.js
 msgctxt "event time on the hour (24 hour clock)"
 msgid "h"
-msgstr "h"
+msgstr "h시"
 
 #: ../contents/ui/LocaleFuncs.js
 msgctxt "event time (24 hour clock)"
@@ -837,12 +830,12 @@ msgstr "h:mm"
 #: ../contents/ui/LocaleFuncs.js
 msgctxt "event time on the hour (12 hour clock)"
 msgid "h AP"
-msgstr "h AP"
+msgstr "AP h시"
 
 #: ../contents/ui/LocaleFuncs.js
 msgctxt "event time (12 hour clock)"
 msgid "h:mm AP"
-msgstr "h:mm AP"
+msgstr "AP h:mm"
 
 #: ../contents/ui/LocaleFuncs.js
 msgctxt "date (%1) with time (%2)"
@@ -857,7 +850,7 @@ msgstr "%1 - %2"
 #: ../contents/ui/LocaleFuncs.js
 msgctxt "short form for %1 hours"
 msgid "%1h"
-msgstr "%1u"
+msgstr "%1시간"
 
 #: ../contents/ui/LocaleFuncs.js
 #, c-format
@@ -873,19 +866,19 @@ msgstr "%1s"
 
 #: ../contents/ui/Logic.qml
 msgid "Weather API limit reached"
-msgstr "Het api-limiet van de weerdienst is bereikt"
+msgstr "날씨 API의 제한에 도달하였습니다"
 
 #: ../contents/ui/Logic.qml
 msgid "Logged out of Google. Please login again."
-msgstr "Je bent uitgelogd - log opnieuw in."
+msgstr "Google에 로그아웃되었습니다. 다시 로그인하십시오."
 
 #: ../contents/ui/main.qml
 msgid "Set Language…"
-msgstr "Taal instellen…"
+msgstr "언어 설정…"
 
 #: ../contents/ui/main.qml
 msgid "Set Locale…"
-msgstr "Regionale instellingen…"
+msgstr "지역 설정…"
 
 #: ../contents/ui/MeteogramView.qml
 #, c-format
@@ -900,11 +893,11 @@ msgstr "MMMM"
 #: ../contents/ui/MonthView.qml
 msgctxt "calendar title format for months not from current year"
 msgid "MMMM, yyyy"
-msgstr "MMMM yyyy"
+msgstr "yyyy년 MMMM"
 
 #: ../contents/ui/NewEventForm.qml
 msgid "Eg: 9am-5pm Work"
-msgstr "Bijv.: 9-17: werk"
+msgstr "예: 오전 9시 - 오전 5시 직장"
 
 #: ../contents/ui/PopupView.qml
 msgid ""
@@ -912,117 +905,63 @@ msgid ""
 "Go to Weather in the config and set your city,\n"
 "and/or disable the meteogram to hide this area."
 msgstr ""
-"Het weer is niet ingesteld.\n"
-"Open de pagina ‘Weer’ in de instellingen en stel een locatie in\n"
-"of schakel de weergrafiek uit om deze sectie te verbergen."
+"날씨가 설정되지 않았습니다.\n"
+"설정 창의 날씨 항목에서 도시를 설정하십시오.\n"
+"천문 현상을 비활성화하셔도 됩니다."
 
 #: ../contents/ui/PopupView.qml
 msgid "Error fetching weather."
-msgstr "De weerinformatie kan niet worden opgevraagd."
+msgstr "날씨 확인에 실패하였습니다."
 
 #: ../contents/ui/TimerInputView.qml
 msgid "&Start"
-msgstr "&Starten"
+msgstr "시작(&S)"
 
 #: ../contents/ui/TimerModel.qml
 msgid "Timer finished"
-msgstr "Tijdklok verstreken"
+msgstr "타이머 완료"
 
 #: ../contents/ui/TimerModel.qml
 msgid "%1 has passed"
-msgstr "%1 is verstreken"
+msgstr "%1 초과"
 
 #: ../contents/ui/TimerModel.qml ../contents/ui/TimerView.qml
 msgid "Repeat"
-msgstr "Herhalen"
+msgstr "반복"
 
 #: ../contents/ui/TimerView.qml
 msgid "Pause Timer"
-msgstr "Tijdklok onderbreken"
+msgstr "타이머 일시정지"
 
 #: ../contents/ui/TimerView.qml
 msgid "Start Timer"
-msgstr "Tijdklok starten"
+msgstr "타이머 시작"
 
 #: ../contents/ui/TimerView.qml
 msgid "Scroll to add to duration"
-msgstr "Scroll om de duur te verlengen"
+msgstr ""
 
 #: ../contents/ui/TimerView.qml
 msgid "Sound"
-msgstr "Geluid"
+msgstr "소리"
 
 #: ../contents/ui/TimerView.qml
 msgid "Set Timer"
-msgstr "Tijdklok instellen"
+msgstr "타이머 설정"
 
 #: ../contents/ui/UpcomingEvents.qml
 msgid "Events Starting"
-msgstr "Aankomende afspraken"
+msgstr "이벤트 시작"
 
 #: ../contents/ui/UpcomingEvents.qml
 msgid "Events In Progress"
-msgstr "Lopende afspraken"
+msgstr "진행 중인 이벤트"
 
 #: ../contents/ui/UpcomingEvents.qml
 msgid "Upcoming Events"
-msgstr "Ingeplande afspraken"
+msgstr "예정된 이벤트"
 
 #: ../contents/ui/UpcomingEvents.qml
 msgctxt "%1 = 15 minutes"
 msgid "Starting in %1"
-msgstr "Begint over %1"
-
-#~ msgid "Could not connect (HTTP Error 0), will try again soon."
-#~ msgstr ""
-#~ "Kan niet verbinden (http-fout 0). Het wordt spoedig opnieuw geprobeerd."
-
-#~ msgid "Weather API limit reached, will try again soon."
-#~ msgstr "Het API-limiet is bereikt. Probeer het later opnieuw."
-
-#~ msgid ""
-#~ "Enable Debugging\n"
-#~ "This will log sensitive information to ~/.xsession-errors"
-#~ msgstr ""
-#~ "Foutopsporing inschakelen\n"
-#~ "Hiermee leg je gevoelige informatie vast in ~/.xsession-errors"
-
-#~ msgid "Choose"
-#~ msgstr "Kiezen"
-
-#~ msgid "Agenda to the left (Two Columns)"
-#~ msgstr "Agenda links tonen (twee kolommen)"
-
-#~ msgid "Agenda above the month (Single Column)"
-#~ msgstr "Agenda boven maand tonen (één kolom)"
-
-#~ msgid "Event Description"
-#~ msgstr "Omschrijving"
-
-#~ msgid "Edit title"
-#~ msgstr "Titel aanpassen"
-
-#~ msgid "Edit description"
-#~ msgstr "Omschrijving aanpassen"
-
-#~ msgid "Discard"
-#~ msgstr "Verwerpen"
-
-#~ msgid "Edit date/time"
-#~ msgstr "Datum/Tijd aanpassen"
-
-#~ msgid "Start"
-#~ msgstr "Starten"
-
-#~ msgid "Event Summary"
-#~ msgstr "Gebeurtenisoverzicht"
-
-#~ msgid ""
-#~ "Enter the following code at <a href=\"https://www.google.com/"
-#~ "device\">https://www.google.com/device</a>."
-#~ msgstr ""
-#~ "Voer de volgende code in op <a href=\"https://www.google.com/"
-#~ "device\">https://www.google.com/device</a>."
-
-#~ msgid "Generating Code…"
-#~ msgstr "Bezig met genereren van code…"
+msgstr "%1부터 시작"

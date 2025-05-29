@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eventcalendar\n"
 "Report-Msgid-Bugs-To: https://github.com/Zren/plasma-applet-eventcalendar\n"
-"POT-Creation-Date: 2021-03-13 15:06-0500\n"
+"POT-Creation-Date: 2023-08-18 10:16-0400\n"
 "PO-Revision-Date: 2021-04-09 19:18+0200\n"
 "Last-Translator: Tim Lehner <tim.le20tl@gmail.com>\n"
 "Language-Team: German <>\n"
@@ -596,6 +596,26 @@ msgstr "Auffrischen"
 msgid "Tasks"
 msgstr "Aufgaben"
 
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Options"
+msgstr "Optionen"
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Event Click:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Open Web Event View"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Open Web Month View"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Hide \"This event was added from Goals in Google Calendar\" description"
+msgstr ""
+
 #: ../contents/ui/config/ConfigICal.qml
 msgid "Add Calendar"
 msgstr "Kalender hinzufügen"
@@ -864,12 +884,12 @@ msgid "Logged out of Google. Please login again."
 msgstr "Von Googel abgemeldet. Bitte erneut anmelden."
 
 #: ../contents/ui/main.qml
-msgid "Set Language..."
+msgid "Set Language…"
 msgstr "Sprache einstellen"
 
 #: ../contents/ui/main.qml
-msgid "Set Locale..."
-msgstr "Region einstellen..."
+msgid "Set Locale…"
+msgstr "Region einstellen…"
 
 #: ../contents/ui/MeteogramView.qml
 #, c-format
@@ -976,17 +996,14 @@ msgstr "Startet in %1"
 #~ msgstr "Ereignis Zusammenfassung"
 
 #~ msgid ""
-#~ "Enter the following code at <a href=\"https://www.google.com/device"
-#~ "\">https://www.google.com/device</a>."
+#~ "Enter the following code at <a href=\"https://www.google.com/"
+#~ "device\">https://www.google.com/device</a>."
 #~ msgstr ""
-#~ "Bitte diese Zeichenfolge bei <a href=\"https://www.google.com/device"
-#~ "\">https://www.google.com/device</a> eingeben."
+#~ "Bitte diese Zeichenfolge bei <a href=\"https://www.google.com/"
+#~ "device\">https://www.google.com/device</a> eingeben."
 
-#~ msgid "Generating Code..."
-#~ msgstr "Zeichenfolge erzeugen..."
-
-#~ msgid "Adjust Date and Time..."
-#~ msgstr "Zeit und Datum einstellen..."
+#~ msgid "Generating Code…"
+#~ msgstr "Zeichenfolge erzeugen…"
 
 #~ msgid "Event In Progress:"
 #~ msgstr "Laufendes Ereignis:"

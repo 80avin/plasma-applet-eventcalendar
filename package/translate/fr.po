@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eventcalendar\n"
 "Report-Msgid-Bugs-To: https://github.com/Zren/plasma-applet-eventcalendar\n"
-"POT-Creation-Date: 2021-03-13 15:06-0500\n"
+"POT-Creation-Date: 2023-08-18 10:16-0400\n"
 "PO-Revision-Date: 2019-10-30 13:29+0900\n"
 "Last-Translator: Mathieu Provençal <mth.provencal@gmail.com>\n"
 "Language-Team: French <LL@li.org>\n"
@@ -595,6 +595,26 @@ msgstr "Rafraîchir"
 msgid "Tasks"
 msgstr ""
 
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Options"
+msgstr "Options"
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Event Click:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Open Web Event View"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Open Web Month View"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGoogleCalendar.qml
+msgid "Hide \"This event was added from Goals in Google Calendar\" description"
+msgstr ""
+
 #: ../contents/ui/config/ConfigICal.qml
 msgid "Add Calendar"
 msgstr "Ajouter un calendrier"
@@ -863,12 +883,12 @@ msgid "Logged out of Google. Please login again."
 msgstr ""
 
 #: ../contents/ui/main.qml
-msgid "Set Language..."
-msgstr "Régler la langue..."
+msgid "Set Language…"
+msgstr "Régler la langue…"
 
 #: ../contents/ui/main.qml
-msgid "Set Locale..."
-msgstr "Paramètres régionaux..."
+msgid "Set Locale…"
+msgstr "Paramètres régionaux…"
 
 #: ../contents/ui/MeteogramView.qml
 #, c-format
@@ -990,14 +1010,14 @@ msgstr ""
 #~ msgstr "Résumé d'événement"
 
 #~ msgid ""
-#~ "Enter the following code at <a href=\"https://www.google.com/device"
-#~ "\">https://www.google.com/device</a>."
+#~ "Enter the following code at <a href=\"https://www.google.com/"
+#~ "device\">https://www.google.com/device</a>."
 #~ msgstr ""
 #~ "Entrer le code sur <a href=\"https://www.google.com/device\">https://www."
 #~ "google.com/device</a>."
 
-#~ msgid "Generating Code..."
-#~ msgstr "Génération du code..."
+#~ msgid "Generating Code…"
+#~ msgstr "Génération du code…"
 
 #~ msgid "Event In Progress:"
 #~ msgstr "Événement en cours:"
